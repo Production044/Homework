@@ -1,0 +1,20 @@
+task#1
+
+from random import randint
+print("Ваше число: ", randint(1, 10))
+
+----------------------------------------------------
+
+task#2
+
+print("Name: ")
+name = str(input())
+print("Age: ")
+age = int(input())
+next_age = age + 1
+print(f'Hello {name}, on your next birthday you’ll be {next_age} years')
+
+----------------------------------------------------
+
+task#3 in progress
+task#4 in progress
