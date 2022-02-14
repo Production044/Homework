@@ -1,0 +1,85 @@
+Список составляла наша команда, но благодаря команде я узнал много нового.
+
+
+# Основний рівень
+
+#  Task 1.
+#Особенности языка Пайтон - Интерпретируемый язык с динамической типизацией
+#с возможность переопределять почти каждое свойство/метод/класс, встраиваемый, переносимый,
+#с широчайшим выбором библиотек. 
+
+# Task 2.
+#Правила именования
+#Начинаем с буквы или нижнего подчёркивания
+#Не начинаем с цифры и знака
+#Не использовать зарезервированные слова как переменные
+#Название переменной должно отображать назначение переменной
+#Верно: number = 5; _number = 5
+#Неверно: 5number = 5 ; &number = 5
+
+# Task 3.
+major_version = 3
+minor_version = .9
+#нужно перевести version в строчный тип данных для дальнейшего сложения двух строк
+version = str(major_version + minor_version)
+language = 'Python'
+language_version = language + ' ' + version
+
+4.
+number_summ = 0
+number = 1
+while number < 100:
+    if number % 3 == 0 and number % 5 == 0:
+        number_summ += number
+    number += 1
+print(number_summ)
+
+5.
+student_surname = input('Введите фамилию студента:')
+student_surname_lenght = len(student_surname)
+total = 1
+number = 1
+while number <= student_surname_lenght:
+    total *= number
+    number += 1
+print(student_surname_lenght, '!', ' = ', total)
+
+6.
+string = "absacas"
+while len(string):
+    string = string[:len(string) - 1]
+    print(string)
+print("Nothing's left here")
+
+# Advanced level
+# Task №1
+# Благодаря интерпретированности прогарммы пайтон можно запускать программы практически на ходу,
+# пропуская процесс связывания/компиляции. Так же, благодаря байт-коду нет необходимости в
+# предустановленном пайтоне что делает его встраиваемым и
+# переносимым. ТАк же в python реализована LIFO и модульность. Что позволяет реализовать очередь "Stack" и выаолнять программу построчно
+
+# Task №2
+# Различие между Mutable and Immutable:
+# Изменяемые объекты не имеют хеша. (Следовательно, для хранения требуют больше места, обычно, имеют больше методов в следствии своей изменяемости)
+# Проверить хеш и количество выделяемый памяти на объект можно с помощью __hash__ и __sizeof__ 
+# mutable objects can change their state or contents and immutable objects can’t change their state or content
+
+# Task №3
+# # number = int(input())
+# temp = 2
+# while temp < number:
+#     if not number % temp:
+#         print("Число составное")
+#         break
+#     temp += 1
+# else:
+#     print("Число простое")
+
+# Task №4
+#f1, f2, total = 1, 1, 0
+# while f2 < 100_000:
+#     f1, f2 = f2, f1 + f2
+#     if f2 % 2:
+#         total += f2
+# print(total)
+#
