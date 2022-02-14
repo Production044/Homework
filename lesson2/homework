@@ -1,0 +1,16 @@
+task#1
+
+print("#########")
+print('#       #', '\n' '#       #')
+print('#       #')
+print("#########", '\n\n' '#       #')
+print('#       #', '\n' '#########')
+print("#       #", '\n' '#       #')
+
+---------------------------------------------------------------------------------------------
+task #2
+
+print("Hi all!") # print out
+print("It's my first lessons on Beetroot", end=' ') #parametr end on this line
+print("And now i write this code", end='\n\n\n') #parametr ends three times in a new line
+print("Looks good!", sep='_') #use parament sep for space
