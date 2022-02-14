@@ -1,0 +1,11 @@
+weight =  80
+height = 179
+height = 1.7
+BMI = (weight/(height * height))
+print('Ваш индекс: ' + str(BMI))
+if BMI < 18: 
+    print('У Вас недостаточная масса тела!')
+elif BMI <= 25:
+    print('У вас все отлично!')
+elif BMI > 25:
+    print('У Вас избыточный вес!')
