@@ -1,0 +1,14 @@
+task#1
+
+weight = 80
+height = 179
+height = 1.7
+BMI = (weight/(height * height))
+print('Your BMI is: ' + str(BMI))
+print('Your BMI is normal: ')
+BMI > 18.5 <= 25
+18 < BMI <= 25
+
+-----------------------------------------------------
+
+task#2 in progress
