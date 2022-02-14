@@ -17,4 +17,18 @@ print(f'Hello {name}, on your next birthday you’ll be {next_age} years')
 ----------------------------------------------------
 
 task#3 in progress
-task#4 in progress
+
+----------------------------------------------------
+
+task#4 
+
+print('2 + 2 = ')
+result = float(input())
+answears = 4
+
+if answears == result:
+    print("Все правильно")
+else:
+    print('Подумайте')
+    
+ ----------------------------------------------------   
