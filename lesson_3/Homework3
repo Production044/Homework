@@ -11,4 +11,13 @@ BMI > 18.5 <= 25
 
 -----------------------------------------------------
 
-task#2 in progress
+task#2 
+
+phone_number = input()
+lenght = len(phone_number)
+if lenght == 12 and phone_number[:13].isdigit() and phone_number[:3].find('380') != -1:
+    print("Valid")
+else:
+    print("Invalid")
+    
+    
