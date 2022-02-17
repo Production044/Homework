@@ -1,0 +1,46 @@
+Task 1
+
+The greatest number
+Write a Python program to get the largest number from a list of random numbers with the length of 10
+Constraints: use only while loop and random module to generate numbers
+
+Code:
+
+import random
+a = random.sample(range(100), 10)
+print('Случайные числа: ', a)
+while max(a) >= 0:    # Я не разобрался как использовать цикл While для этого задания. Воспользовался не по назначению =)
+    print('Максимальное случайное число: ', max(a))
+    break
+
+----------------------------------------------------
+
+Task 2
+
+Exclusive common numbers.
+Generate 2 lists with the length of 10 with random integers from 1 to 10, and make a third list containing the common integers
+between the 2 initial lists without any duplicates.
+Constraints: use only while loop and random module to generate numbers
+
+Code:
+
+import random
+list_1 = [random.randint(1,10) for i in range(10)]
+list_2 = [random.randint(1,10) for i in range(10)]
+list_3 = list((set(list_1) & set(list_2)))
+print('Случайные числа из первого списка: ', list_1) 
+print('Случайные числа из второго списка: ', list_2)
+print('Совпавшие числа из двух списков: ', list_3)
+
+----------------------------------------------------
+
+Task 3
+
+Extracting numbers.
+Make a list that contains all integers from 1 to 100, then find all integers from the list that are divisible by 7 but not a multiple of 5,
+and store them in a separate list. Finally, print the list.
+Constraint: use only while loop for iteration
+
+Code:
+
+in progress........
