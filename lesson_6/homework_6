@@ -43,4 +43,12 @@ Constraint: use only while loop for iteration
 
 Code:
 
-in progress........
+import random 
+n = random.sample(range(101), 101)
+n.sort()
+print('Наши числа:', n)
+i = 0
+while i <= len(n):
+    if i % 7 == 0 and i % 5:
+        print(i)
+    i += 1
